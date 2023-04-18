@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GovTech 2023 - IBM Challenge</title>
+</head>
+<body>
+    <div>
+        <input id="inputQuery" type="text" placeholder="Query"/>
+        <button type="submit" onclick="window.submitQuery()">Search</button>
+    </div>
+    <div id="outputContainer">
+
+    </div>
+
+    <script>
+        window.submitQuery = function() {
+            const query = document.getElementById('inputQuery').value;
+            document.getElementById('outputContainer').innerHTML =query
+            
+        }
+    </script>
+
+    
+
+    </script>
+</body>
